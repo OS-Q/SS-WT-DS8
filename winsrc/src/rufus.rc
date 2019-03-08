@@ -415,7 +415,7 @@ BEGIN
             VALUE "FileDescription", "Rufus"
             VALUE "FileVersion", "3.5.1453"
             VALUE "InternalName", "Rufus"
-            VALUE "LegalCopyright", "© 2011-2019 Pete Batard (GPL v3)"
+            VALUE "LegalCopyright", "?2011-2019 Pete Batard (GPL v3)"
             VALUE "LegalTrademarks", "https://www.gnu.org/copyleft/gpl.html"
             VALUE "OriginalFilename", "rufus-3.5.exe"
             VALUE "ProductName", "Rufus"
