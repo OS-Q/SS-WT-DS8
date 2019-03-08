@@ -4,7 +4,7 @@
 
 ### [简介](https://github.com/Qitas/winimage/wiki)
 
-winimage工具，基于rufus开源工程
+winimage工具，基于rufus开源工程和其他开源模板
 
 
 ## [构成](qitas/)

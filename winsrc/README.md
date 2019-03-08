@@ -1,12 +1,8 @@
-Rufus: The Reliable USB Formatting Utility
-==========================================
+# [winimage](https://github.com/Qitas/winimage) 
 
-[![Build status](https://img.shields.io/appveyor/ci/pbatard/rufus.svg?style=flat-square)](https://ci.appveyor.com/project/pbatard/rufus)
-[![Coverity Scan Build Status](https://img.shields.io/coverity/scan/2172.svg?style=flat-square)](https://scan.coverity.com/projects/pbatard-rufus)
-[![Build contributors](https://img.shields.io/github/contributors/pbatard/rufus.svg?style=flat-square)](https://github.com/pbatard/rufus/graphs/contributors)
-[![Licence](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+### qitas@qitas.cn
 
-![Rufus logo](https://raw.githubusercontent.com/pbatard/rufus/master/res/icons/rufus-128.png)
+### [Rufus简介](https://github.com/Qitas/winimage/wiki)
 
 Features
 --------
@@ -37,21 +33,9 @@ download and use the *freely available* [Visual Studio Community Edition](https:
 to build, run or develop for Rufus. As per the Visual Studio Community Edition license
 this applies regardless of whether you are an individual or a corporate user.
 
-Additional information
-----------------------
 
-Rufus provides extensive information about what it is doing, either through its
-easily accessible log, or through the [Windows debug facility](https://docs.microsoft.com/en-us/sysinternals/downloads/debugview).
-
-* [__Official Website__](https://rufus.ie)
-* [FAQ](https://github.com/pbatard/rufus/wiki/FAQ)
-
-Enhancements/Bugs
+Enhancements
 -----------------
-
-Please use the [GitHub issue tracker](https://github.com/pbatard/rufus/issues)
-for reporting problems or suggesting new features.
-
 
 <sup>(1)</sup> Tests carried out with a 16 GB USB 3.0 ADATA pen drive on a Core 2 duo/4 GB RAM platform running Windows 7 x64.
 ISO: `en_windows_7_ultimate_with_sp1_x64_dvd_618240.iso`
@@ -61,3 +45,7 @@ ISO: `en_windows_7_ultimate_with_sp1_x64_dvd_618240.iso`
 | [Windows USB/DVD Download Tool](https://www.microsoft.com/en-us/download/windows-usb-dvd-download-tool) | v1.0.30 | 8 mins 10s |
 | [UNetbootin](https://unetbootin.github.io) | v1.1.1.1 | 6 mins 20s |
 | **Rufus** | v1.1.0 | **3 mins 25s** |
+
+-----------------
+
+### 锻造最美之器
