@@ -34,7 +34,7 @@
  */
 //#define RUFUS_TEST
 
-#define APPLICATION_NAME            "Q-image"
+#define APPLICATION_NAME            "Qimage"
 #if defined(_M_AMD64)
 #define APPLICATION_ARCH            "x64"
 #elif defined(_M_IX86)
@@ -102,7 +102,7 @@
 #if defined(RUFUS_TEST)
 #define RUFUS_URL                   "http://nano/~rufus"
 #else
-#define RUFUS_URL                   "https://rufus.ie"
+#define RUFUS_URL                   "https://OS-Q.COM"
 #endif
 #define DOWNLOAD_URL                RUFUS_URL "/downloads"
 #define FILES_URL                   RUFUS_URL "/files"

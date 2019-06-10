@@ -1,21 +1,4 @@
-/*
- * Rufus: The Reliable USB Formatting Utility
- * Drive access function calls
- * Copyright © 2011-2019 Pete Batard <pete@akeo.ie>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+
 #ifdef _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
 #include <crtdbg.h>
@@ -89,16 +72,6 @@ BOOL installed_uefi_ntfs;
 DWORD partition_index[3];
 uint64_t persistence_size = 0;
 
-/*
- * The following methods get or set the AutoMount setting (which is different from AutoRun)
- * Rufus needs AutoMount to be set as the format process may fail for fixed drives otherwise.
- * See https://github.com/pbatard/rufus/issues/386.
- *
- * Reverse engineering diskpart and mountvol indicates that the former uses the IVdsService
- * ClearFlags()/SetFlags() to set VDS_SVF_AUTO_MOUNT_OFF whereas mountvol on uses
- * IOCTL_MOUNTMGR_SET_AUTO_MOUNT on "\\\\.\\MountPointManager".
- * As the latter is MUCH simpler this is what we'll use too
- */
 BOOL SetAutoMount(BOOL enable)
 {
 	HANDLE hMountMgr;
@@ -1047,7 +1020,7 @@ const struct {int (*fn)(FILE *fp); char* str;} known_mbr[] = {
 	{ is_2000_mbr, "Windows 2000/XP/2003" },
 	{ is_vista_mbr, "Windows Vista" },
 	{ is_win7_mbr, "Windows 7" },
-	{ is_rufus_mbr, "Rufus" },
+	{ is_rufus_mbr, "Q image" },
 	{ is_syslinux_mbr, "Syslinux" },
 	{ is_reactos_mbr, "ReactOS" },
 	{ is_kolibrios_mbr, "KolibriOS" },

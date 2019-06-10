@@ -1,22 +1,4 @@
-/*
- * Rufus: The Reliable USB Formatting Utility
- * Formatting function calls
- * Copyright © 2007-2009 Tom Thornhill/Ridgecrop
- * Copyright © 2011-2019 Pete Batard <pete@akeo.ie>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+
 #ifdef _CRTDBG_MAP_ALLOC
 #include <stdlib.h>
 #include <crtdbg.h>
@@ -1537,7 +1519,7 @@ static BOOL WriteMBR(HANDLE hPhysicalDrive)
 		// Add a notice in the protective MBR
 		fake_fd._handle = (char*)hPhysicalDrive;
 		set_bytes_per_sector(SelectedDrive.SectorSize);
-		uprintf(using_msg, "Rufus protective");
+		uprintf(using_msg, "Q image protective");
 		r = write_rufus_gpt_mbr(fp);
 		goto notify;
 	}

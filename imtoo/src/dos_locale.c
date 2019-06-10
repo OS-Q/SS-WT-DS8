@@ -1,21 +1,4 @@
-/*
- * Rufus: The Reliable USB Formatting Utility
- * DOS keyboard locale setup
- * Copyright © 2011-2013 Pete Batard <pete@akeo.ie>
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+
 
 /* Memory leaks detection - define _CRTDBG_MAP_ALLOC as preprocessor macro */
 #ifdef _CRTDBG_MAP_ALLOC
@@ -30,11 +13,7 @@
 
 #include "rufus.h"
 
-/*
- * Note: if you want a book that can be used as a keyboards and codepages bible, I
- * would recommend the "OS/2 Warp Server for e-business - Keyboards and Codepages".
- * See http://www.borgendale.com/keyboard.pdf
- */
+
 
 /* WinME DOS keyboard 2 letter codes & supported keyboard ID(s), as retrieved
  * from the Millenium disk image in diskcopy.dll on a Windows 7 system

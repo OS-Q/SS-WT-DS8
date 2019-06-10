@@ -883,7 +883,7 @@ BOOL CALLBACK LogCallback(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 	LONG_PTR style;
 	DWORD log_size;
 	char *log_buffer = NULL, *filepath;
-	EXT_DECL(log_ext, "rufus.log", __VA_GROUP__("*.log"), __VA_GROUP__("Rufus log"));
+	EXT_DECL(log_ext, "Qimage.log", __VA_GROUP__("*.log"), __VA_GROUP__("Qimage log"));
 	switch (message) {
 	case WM_INITDIALOG:
 		apply_localization(IDD_LOG, hDlg);
