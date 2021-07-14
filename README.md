@@ -1,14 +1,7 @@
-﻿# [win image](https://github.com/Qitas/winimage)
+﻿# [SS-WT-DS-2](https://github.com/OS-Q/SS-WT-DS-2)
 
-### qitas@qitas.cn
+[![sites](http://182.61.61.133/link/resources/OSQ.png)](http://www.OS-Q.com)
 
-### [项目简介](https://github.com/Qitas/winimage)
+DS18B20传感器类扩展板示例工程集
 
-Win USB image工具，基于rufus开源工程功能定制开发，window系统下编译开发调试
-
-* [imtoo](imtoo/)
-
-### [其他win工具](https://github.com/Qitas/software)
-
-[![sites](qitas/qitas.png)](http://www.qitas.cn)
-## 锻造最美之器
+### [源圈OS-Q](http://www.OS-Q.com)
