@@ -8,6 +8,8 @@ Debug
 *__pyc*/
 *.DS_Store
 *.autosave
+Middlewares
+Drivers
 *~
 ~*
 .settings
